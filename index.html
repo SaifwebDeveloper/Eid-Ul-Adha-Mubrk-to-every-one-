@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eid Ul Adha Mubarak</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #14532d);
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:40px 20px;
+      position:relative;
+    }
+
+    .overlay{
+      position:absolute;
+      inset:0;
+      background:rgba(0,0,0,0.45);
+    }
+
+    .container{
+      position:relative;
+      z-index:2;
+      max-width:1100px;
+      width:100%;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.15);
+      backdrop-filter: blur(12px);
+      border-radius:28px;
+      overflow:hidden;
+      box-shadow:0 20px 50px rgba(0,0,0,0.4);
+    }
+
+    .top-banner{
+      background:linear-gradient(to right,#15803d,#16a34a);
+      padding:18px;
+      text-align:center;
+      font-size:18px;
+      font-weight:600;
+      letter-spacing:1px;
+    }
+
+    .content{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:30px;
+      padding:50px;
+      align-items:center;
+    }
+
+    .text-section h1{
+      font-size:58px;
+      line-height:1.2;
+      margin-bottom:20px;
+      color:#facc15;
+    }
+
+    .text-section p{
+      font-size:18px;
+      line-height:1.8;
+      color:#f1f5f9;
+      margin-bottom:25px;
+    }
+
+    .eid-icons{
+      display:flex;
+      gap:18px;
+      margin-top:20px;
+      flex-wrap:wrap;
+    }
+
+    .icon-box{
+      width:70px;
+      height:70px;
+      background:rgba(255,255,255,0.12);
+      border-radius:18px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:28px;
+      transition:0.4s;
+      border:1px solid rgba(255,255,255,0.15);
+    }
+
+    .icon-box:hover{
+      transform:translateY(-8px) scale(1.05);
+      background:#22c55e;
+    }
+
+    .image-section{
+      position:relative;
+    }
+
+    .main-image{
+      width:100%;
+      border-radius:25px;
+      object-fit:cover;
+      height:500px;
+      border:4px solid rgba(255,255,255,0.15);
+      box-shadow:0 15px 40px rgba(0,0,0,0.4);
+    }
+
+    .greeting-card{
+      margin-top:30px;
+      background:rgba(255,255,255,0.08);
+      padding:25px;
+      border-radius:22px;
+      border:1px solid rgba(255,255,255,0.1);
+      text-align:center;
+    }
+
+    .greeting-card h2{
+      color:#fde047;
+      margin-bottom:12px;
+      font-size:30px;
+    }
+
+    .greeting-card p{
+      font-size:17px;
+      line-height:1.8;
+      color:#e2e8f0;
+    }
+
+    .from{
+      margin-top:20px;
+      font-size:22px;
+      font-weight:600;
+      color:#86efac;
+    }
+
+    .moon{
+      position:absolute;
+      top:40px;
+      right:60px;
+      font-size:70px;
+      color:#fde68a;
+      animation:float 3s ease-in-out infinite;
+    }
+
+    @keyframes float{
+      0%{
+        transform:translateY(0);
+      }
+      50%{
+        transform:translateY(-12px);
+      }
+      100%{
+        transform:translateY(0);
+      }
+    }
+
+    .footer{
+      text-align:center;
+      padding:18px;
+      background:rgba(0,0,0,0.2);
+      font-size:15px;
+      color:#d1fae5;
+    }
+
+    @media(max-width:900px){
+
+      .content{
+        grid-template-columns:1fr;
+        padding:35px 25px;
+      }
+
+      .text-section h1{
+        font-size:42px;
+      }
+
+      .main-image{
+        height:380px;
+      }
+
+      .moon{
+        right:20px;
+        top:20px;
+        font-size:55px;
+      }
+    }
+
+    @media(max-width:500px){
+
+      .text-section h1{
+        font-size:34px;
+      }
+
+      .text-section p{
+        font-size:16px;
+      }
+
+      .icon-box{
+        width:60px;
+        height:60px;
+        font-size:24px;
+      }
+
+      .main-image{
+        height:300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+
+    <div class="overlay"></div>
+
+    <i class="fa-solid fa-moon moon"></i>
+
+    <div class="container">
+
+      <div class="top-banner">
+        🌙 Eid Ul Adha Mubarak To You & Your's Family 🌙
+      </div>
+
+      <div class="content">
+
+        <!-- Text Section -->
+        <div class="text-section">
+
+          <h1>
+            Eid Ul Adha Mubarak
+          </h1>
+
+          <p>
+            May this beautiful occasion of Eid bring peace, happiness,
+            success, and countless blessings to you and your family.
+            Wishing everyone joy, prosperity, and memorable moments
+            filled with love and togetherness.
+          </p>
+
+          <div class="eid-icons">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+
+            <div class="icon-box">
+              <i class="fa-solid fa-mosque"></i>
+            </div>
+
+            <div class="icon-box">
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <div class="icon-box">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Image Section -->
+        <div class="image-section">
+
+          <img
+            class="main-image"
+            src="/sa.jpeg"
+            alt="Eid Celebration"
+          />
+
+        </div>
+
+      </div>
+
+      <div class="greeting-card">
+
+        <h2>Warm Wishes For You & Your's Family ✨</h2>
+
+        <p>
+          On this blessed Eid Ul Adha, may your sacrifices be appreciated,
+          your prayers be answered, and your heart be filled with gratitude
+          and happiness.
+        </p>
+
+        <div class="from">
+          From Saif Ur Rehman
+        </div>
+
+      </div>
+
+      <div class="footer">
+        © 2026 | Eid Celebration Greeting Page
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    // Floating title animation
+    const title = document.querySelector(".text-section h1");
+
+    setInterval(() => {
+      title.style.transform = "scale(1.02)";
+
+      setTimeout(() => {
+        title.style.transform = "scale(1)";
+      }, 500);
+
+    }, 2000);
+  </script>
+
+</body>
+</html>
